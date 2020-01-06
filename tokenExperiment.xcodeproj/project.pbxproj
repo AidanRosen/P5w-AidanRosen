@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA89688623C3E5030005AA22 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = CA89688523C3E5030005AA22 /* tokenizer.c */; };
 		CA9C5D2A23A83B6A0043BA53 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C5D2923A83B6A0043BA53 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA89688423C3E5030005AA22 /* tokenizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
+		CA89688523C3E5030005AA22 /* tokenizer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
 		CA9C5D2623A83B6A0043BA53 /* tokenExperiment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tokenExperiment; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9C5D2923A83B6A0043BA53 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CA9C5D2923A83B6A0043BA53 /* main.c */,
+				CA89688423C3E5030005AA22 /* tokenizer.h */,
+				CA89688523C3E5030005AA22 /* tokenizer.c */,
 			);
 			path = tokenExperiment;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA9C5D2A23A83B6A0043BA53 /* main.c in Sources */,
+				CA89688623C3E5030005AA22 /* tokenizer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
