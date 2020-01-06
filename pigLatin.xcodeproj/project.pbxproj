@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAD59C2723A19D4500E7F891 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD59C2623A19D4500E7F891 /* main.c */; };
+		CAD59C2F23A1AB7A00E7F891 /* pigLatin.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD59C2E23A1AB7A00E7F891 /* pigLatin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CAD59C2323A19D4500E7F891 /* pigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD59C2623A19D4500E7F891 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CAD59C2D23A1AB7A00E7F891 /* pigLatin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pigLatin.h; sourceTree = "<group>"; };
+		CAD59C2E23A1AB7A00E7F891 /* pigLatin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pigLatin.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CAD59C2623A19D4500E7F891 /* main.c */,
+				CAD59C2D23A1AB7A00E7F891 /* pigLatin.h */,
+				CAD59C2E23A1AB7A00E7F891 /* pigLatin.c */,
 			);
 			path = pigLatin;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD59C2723A19D4500E7F891 /* main.c in Sources */,
+				CAD59C2F23A1AB7A00E7F891 /* pigLatin.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

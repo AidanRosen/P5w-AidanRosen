@@ -7,9 +7,12 @@
 //
 
 #include <stdio.h>
-
+#include <string.h>
+#include "pigLatin.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    printf("Write down your string to be latinized: ");
+    char string[100];
+    scanf("%s",string);
+    pigLatin(string);
     return 0;
 }
