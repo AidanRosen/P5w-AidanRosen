@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA08E5FD23C54513007D9EFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA08E5FC23C54513007D9EFE /* main.c */; };
+		CA08E60523C545C6007D9EFE /* tokenMake.c in Sources */ = {isa = PBXBuildFile; fileRef = CA08E60423C545C6007D9EFE /* tokenMake.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CA08E5F923C54513007D9EFE /* tokenTotal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tokenTotal; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA08E5FC23C54513007D9EFE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CA08E60323C545C6007D9EFE /* tokenMake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokenMake.h; sourceTree = "<group>"; };
+		CA08E60423C545C6007D9EFE /* tokenMake.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tokenMake.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CA08E5FC23C54513007D9EFE /* main.c */,
+				CA08E60323C545C6007D9EFE /* tokenMake.h */,
+				CA08E60423C545C6007D9EFE /* tokenMake.c */,
 			);
 			path = tokenTotal;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA08E5FD23C54513007D9EFE /* main.c in Sources */,
+				CA08E60523C545C6007D9EFE /* tokenMake.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
