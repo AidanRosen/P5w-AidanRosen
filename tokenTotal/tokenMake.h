@@ -10,5 +10,6 @@
 #define tokenMake_h
 #include <stdio.h>
 char *tokenOrg(char tokenBase[1000]);
-int tokenPick(int wordSelect);
+char *tokenPick(char finalForm[1000]);
+char *pigLatin(char latinBase[100]);
 #endif /* tokenMake_h */
