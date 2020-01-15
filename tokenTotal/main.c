@@ -10,13 +10,23 @@
 #include "tokenMake.h"
 int main(int argc, const char * argv[]) {
     printf("Please write a string to tokenize: \n");
-    char stringIn[1000];
-    fgets(stringIn, 1000, stdin);
+    char stringIn[100];
+    fgets(stringIn, 100, stdin); //MUST BE USED to work properly with tokenizing multiple strings with spaces
+    
+    strtok(stringIn, "\n");//removes new line caused by fgets
+    
+    //scanf("%s",stringIn);Creates errors with tokenizing spaces
+    
     tokenOrg(stringIn);
-    char stringToUse[1000];
-    strcpy(stringToUse,tokenPick(stringToUse));//need to put in my string outputted function somehow
-    printf("This is the string LATINIZED: %s end ofstr\n\n", stringToUse);
-    printf("This is the strange character: CHARACTER:%c<--Character", stringToUse[2]);//Tests show there is a giant space of nothing, all in a constant size, no matter if the qord begins with a consonant or vowl
+    char stringToUse[100];
+    strcpy(stringToUse,tokenPick(stringToUse));//piglatins the string
+    char stringtoShort[100];
+    strcpy(stringtoShort,tokenShort(stringtoShort));
+    char stringtoReverse[100];
+    strcpy(stringtoReverse,tokenReverse(stringtoReverse));
+    printf("\n\nThis is the string LATINIZED: %s\n\n", stringToUse);
+    printf("\n\nThis is the string SHORTHANDED: %s\n\n",stringtoShort);
+    printf("\n\nThis is the string REVERSED: %s\n\n",stringtoReverse);
     printf("\n"); 
     return 0;
 }
