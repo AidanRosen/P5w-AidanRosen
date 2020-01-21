@@ -18,12 +18,12 @@ int main(int argc, const char * argv[]) {
     //scanf("%s",stringIn);Creates errors with tokenizing spaces
     
     tokenOrg(stringIn);
+    char stringtoReverse[100];
+    strcpy(stringtoReverse,tokenReverse(stringtoReverse));
     char stringToUse[100];
     strcpy(stringToUse,tokenPick(stringToUse));//piglatins the string
     char stringtoShort[100];
     strcpy(stringtoShort,tokenShort(stringtoShort));
-    char stringtoReverse[100];
-    strcpy(stringtoReverse,tokenReverse(stringtoReverse));
     printf("\n\nThis is the string LATINIZED: %s\n\n", stringToUse);
     printf("\n\nThis is the string SHORTHANDED: %s\n\n",stringtoShort);
     printf("\n\nThis is the string REVERSED: %s\n\n",stringtoReverse);
