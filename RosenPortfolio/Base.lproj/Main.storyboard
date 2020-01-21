@@ -29,6 +29,14 @@
                                     <segue destination="P2m-qX-buc" kind="show" id="TKA-Dx-5Xo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcb-Zg-A3m">
+                                <rect key="frame" x="209" y="473" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Golf"/>
+                                <connections>
+                                    <segue destination="QXk-Cw-Lvr" kind="show" id="1jc-BF-SI7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -38,6 +46,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="136.60714285714286"/>
+        </scene>
+        <!--golfball-->
+        <scene sceneID="AQe-M1-Xdi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Storyboard" referencedIdentifier="golfball" id="QXk-Cw-Lvr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KPX-r0-qGO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ra-mc-fAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="528"/>
         </scene>
         <!--string-->
         <scene sceneID="bFV-0r-eRw">

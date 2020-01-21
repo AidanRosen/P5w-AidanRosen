@@ -12,5 +12,7 @@
 #include <stdio.h>
 char *Palindrome(char *cInput, long stringLength);
 char *recursePalin(char *recursor);
-char *realRecurse(char *recursor); 
+char *realRecurse(char *recursor);
+char *tokenizer(char tokenBase[1000]);
+char *shortHand(char tokenBase2[1000]); 
 #endif /* Palindrome_h */
