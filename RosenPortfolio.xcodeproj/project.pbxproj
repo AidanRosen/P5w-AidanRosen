@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA22B0F123D7BBAF006D572B /* sentences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA22B0F023D7BBAF006D572B /* sentences.storyboard */; };
+		CA22B0F423D7BFD6006D572B /* sentences.m in Sources */ = {isa = PBXBuildFile; fileRef = CA22B0F323D7BFD6006D572B /* sentences.m */; };
 		CA26916023AAE101003E0FD9 /* shorthand.c in Sources */ = {isa = PBXBuildFile; fileRef = CA26915F23AAE101003E0FD9 /* shorthand.c */; };
 		CA362CAD23A2F252003181A6 /* Palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CA362CAC23A2F252003181A6 /* Palindrome.c */; };
 		CA362CB023A2F284003181A6 /* recursivePalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = CA362CAF23A2F284003181A6 /* recursivePalindrome.c */; };
 		CA4CEEF2239721CC009439FC /* stringReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4CEEF1239721CC009439FC /* stringReverse.m */; };
 		CA4CEEF523972684009439FC /* stringReverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4CEEF423972684009439FC /* stringReverse.storyboard */; };
+		CA672AC423D9013C0039230F /* manipulator.c in Sources */ = {isa = PBXBuildFile; fileRef = CA672AC323D9013C0039230F /* manipulator.c */; };
 		CA9C5D3123A83E6F0043BA53 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C5D3023A83E6F0043BA53 /* tokenizer.c */; };
 		CAA975BB2395C22A00EE43D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA975BA2395C22A00EE43D8 /* AppDelegate.m */; };
 		CAA975BE2395C22A00EE43D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA975BD2395C22A00EE43D8 /* SceneDelegate.m */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA22B0F023D7BBAF006D572B /* sentences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sentences.storyboard; sourceTree = "<group>"; };
+		CA22B0F223D7BC77006D572B /* sentences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sentences.h; sourceTree = "<group>"; };
+		CA22B0F323D7BFD6006D572B /* sentences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sentences.m; sourceTree = "<group>"; };
 		CA26915F23AAE101003E0FD9 /* shorthand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shorthand.c; sourceTree = "<group>"; };
 		CA362CAC23A2F252003181A6 /* Palindrome.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Palindrome.c; path = RosenPortfolio/Palindrome.c; sourceTree = SOURCE_ROOT; };
 		CA362CAE23A2F26E003181A6 /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Palindrome.h; path = RosenPortfolio/Palindrome.h; sourceTree = SOURCE_ROOT; };
@@ -52,6 +58,8 @@
 		CA4CEEF1239721CC009439FC /* stringReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stringReverse.m; sourceTree = "<group>"; };
 		CA4CEEF3239723BA009439FC /* stringReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringReverse.h; sourceTree = "<group>"; };
 		CA4CEEF423972684009439FC /* stringReverse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = stringReverse.storyboard; sourceTree = "<group>"; };
+		CA672AC223D9013C0039230F /* manipulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = manipulator.h; sourceTree = "<group>"; };
+		CA672AC323D9013C0039230F /* manipulator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = manipulator.c; sourceTree = "<group>"; };
 		CA9C5D3023A83E6F0043BA53 /* tokenizer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
 		CAA975B62395C22A00EE43D8 /* RosenPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosenPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA975B92395C22A00EE43D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				CA362CAE23A2F26E003181A6 /* Palindrome.h */,
+				CA672AC223D9013C0039230F /* manipulator.h */,
+				CA672AC323D9013C0039230F /* manipulator.c */,
 				CA362CAF23A2F284003181A6 /* recursivePalindrome.c */,
 				CA362CAC23A2F252003181A6 /* Palindrome.c */,
 				CA9C5D3023A83E6F0043BA53 /* tokenizer.c */,
@@ -124,6 +134,8 @@
 				CAE0CDB923CFC4F800231374 /* Golf.h */,
 				CA4CEEF1239721CC009439FC /* stringReverse.m */,
 				CA4CEEF3239723BA009439FC /* stringReverse.h */,
+				CA22B0F223D7BC77006D572B /* sentences.h */,
+				CA22B0F323D7BFD6006D572B /* sentences.m */,
 			);
 			path = "Obj C files";
 			sourceTree = "<group>";
@@ -161,6 +173,7 @@
 				CAA975C02395C22A00EE43D8 /* ViewController.m */,
 				CAA975C22395C22A00EE43D8 /* Main.storyboard */,
 				CA4CEEF423972684009439FC /* stringReverse.storyboard */,
+				CA22B0F023D7BBAF006D572B /* sentences.storyboard */,
 				CAE0CDB423CFC39600231374 /* Storyboard.storyboard */,
 				CAA975C52395C22B00EE43D8 /* Assets.xcassets */,
 				CAA975C72395C22B00EE43D8 /* LaunchScreen.storyboard */,
@@ -296,6 +309,7 @@
 				CAA975C62395C22B00EE43D8 /* Assets.xcassets in Resources */,
 				CAA975C42395C22A00EE43D8 /* Main.storyboard in Resources */,
 				CAE0CDB523CFC39600231374 /* Storyboard.storyboard in Resources */,
+				CA22B0F123D7BBAF006D572B /* sentences.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,10 +336,12 @@
 			files = (
 				CA362CAD23A2F252003181A6 /* Palindrome.c in Sources */,
 				CA362CB023A2F284003181A6 /* recursivePalindrome.c in Sources */,
+				CA672AC423D9013C0039230F /* manipulator.c in Sources */,
 				CA26916023AAE101003E0FD9 /* shorthand.c in Sources */,
 				CA4CEEF2239721CC009439FC /* stringReverse.m in Sources */,
 				CAA975C12395C22A00EE43D8 /* ViewController.m in Sources */,
 				CAA975BB2395C22A00EE43D8 /* AppDelegate.m in Sources */,
+				CA22B0F423D7BFD6006D572B /* sentences.m in Sources */,
 				CAE0CDBB23CFC69500231374 /* Golf.m in Sources */,
 				CAE0CDBE23CFC6B900231374 /* Golf.m in Sources */,
 				CAA975CC2395C22B00EE43D8 /* main.m in Sources */,

@@ -37,6 +37,14 @@
                                     <segue destination="QXk-Cw-Lvr" kind="show" id="1jc-BF-SI7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU5-VK-sRQ">
+                                <rect key="frame" x="136" y="609" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SENTENCES"/>
+                                <connections>
+                                    <segue destination="Q88-kQ-Xe7" kind="show" id="yKq-Ai-wCG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,6 +74,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySE-p9-zzu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042" y="575"/>
+        </scene>
+        <!--stringManipulator-->
+        <scene sceneID="VOb-47-95c">
+            <objects>
+                <viewControllerPlaceholder storyboardName="sentences" referencedIdentifier="stringManipulator" id="Q88-kQ-Xe7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="k5j-Xx-A2d"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="apy-Pk-Fpm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389" y="520"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XN0-e2-xAC">
