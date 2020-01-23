@@ -130,7 +130,6 @@ char *Palindrome(char cInput[1000]) {
        reverse[end] = swap;
        end--;
    }
-    printf("\n\nThis is your reverse word in Palindrome: %s\n\n",reverse);
    return reverse;
    
    
